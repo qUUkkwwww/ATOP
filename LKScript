@@ -1789,7 +1789,7 @@ function shuaxinlb(zji)
 end
 shuaxinlb(true)
 
-local bailib = loadstring(game:HttpGet "https://pastebin.com/raw/DW3eJwe6")()
+local bailib = loadstring(game:HttpGet("https://raw.githubusercontent.com/qUUkkwwww/ATOP/main/LKScript.UI"))()
 local win = bailib:new("LK--伐木大亨2", '')
 local Tab1 = win:Tab("玩家功能", "10882439086")
 local Section3 = Tab1:section("玩家", false)
@@ -1857,7 +1857,7 @@ Section:Toggle("自动捡斧头", 'Toggleflag', false, function(state)
 end)
 
 Section:Button("如何食用加载复制斧头", function()
-    notlft("脚本",
+    notlft("LK",
         "默认死亡时间为3.1秒，如果卡在加载界面就增加时间,如果斧头被保存了就减少时间,加减推荐是在3.1的基础上来,推荐加减时间为0.1秒",
         "好")
 end)
