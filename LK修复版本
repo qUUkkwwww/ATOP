@@ -1145,4 +1145,70 @@ local player = Window:MakeTab({
 player:AddButton({ 
 	Name = "自动拿宝箱",
 	Callback = function()
-      	loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREH
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/autochest'))()
+  	end
+})
+player:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
+  	end
+})
+player:AddButton({ 
+	Name = "2",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "技能大战",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+player:AddButton({ 
+	Name = "hitbox",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/Bilmemi/hitbox2/main/op'))()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "throw balls at people",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+player:AddButton({ 
+	Name = "hitbox",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0throwballs"))()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "掰手腕模拟器",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+player:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/SirUsefull/Zennedy/main/Armwrestlingsim", true))()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "破坏模拟器",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+player:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/FadeRemix/RND-Games/main/DestructionSim.lua"))() 
+  	end
+})
